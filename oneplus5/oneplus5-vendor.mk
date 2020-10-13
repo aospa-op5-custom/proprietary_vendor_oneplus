@@ -20,6 +20,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.iop@2.0-service:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/bin/hw/vendor.qti.hardware.iop@2.0-service \
     vendor/oneplus/oneplus5/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@2.0-service:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/bin/hw/vendor.qti.hardware.perf@2.0-service \
     vendor/oneplus/oneplus5/proprietary/vendor/etc/init/vendor.qti.hardware.iop@2.0-service.rc:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/etc/init/vendor.qti.hardware.iop@2.0-service.rc \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libhidltransport.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libhwbinder.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libperfconfig.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libperfgluelayer.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/libqti-iopd-client.so \
@@ -32,6 +34,8 @@ PRODUCT_COPY_FILES += \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/vendor.qti.hardware.perf@2.0.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/vendor.qti.hardware.perf@2.0.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@2.0-impl.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib/hw/vendor.qti.hardware.iop@2.0-impl.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libhidltransport.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libhidltransport.so \
+    vendor/oneplus/oneplus5/proprietary/vendor/lib64/libhwbinder.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libhwbinder.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libperfconfig.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libperfconfig.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libperfgluelayer.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libperfgluelayer.so \
     vendor/oneplus/oneplus5/proprietary/vendor/lib64/libqti-iopd-client.so:$(TARGET_COPY_OUT_VENDOR_OVERLAY)/lib64/libqti-iopd-client.so \
