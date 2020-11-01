@@ -172,9 +172,3 @@ android_app_import {
 	product_specific: true,
 }
 
-dex_import {
-	name: "vendor.oneplus.hardware.param-V1.0-java",
-	owner: "oneplus",
-	jars: ["proprietary/framework/vendor.oneplus.hardware.param-V1.0-java.jar"],
-}
-
